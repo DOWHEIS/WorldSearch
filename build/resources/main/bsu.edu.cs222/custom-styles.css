@@ -1,0 +1,53 @@
+
+.root{
+    -fx-font-family: Helvetica, Arial, sans-serif;
+}
+
+.sidebar {
+    -fx-background-color: rgba(0,0,0,.7);
+    -fx-background-radius: 30,30,30,30;
+}
+
+.list-view .list-cell{
+    -fx-alignment: center;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+}
+.list-view .list-cell:odd{
+    -fx-background-color: "#262626";
+}
+.list-view .list-cell:even{
+    -fx-background-color: "#1A1A1A";
+}
+
+.list-view{
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+.list-view .scroll-bar:horizontal{
+    -fx-opacity: 0;
+    -fx-padding:-9;
+}
+.list-view .scroll-bar:vertical{
+    -fx-opacity: 0;
+    -fx-padding:-9;
+}
+.search-menu {
+    -fx-background-color: rgb(37,35,36);
+}
+.label_display{
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
+}
+
+.search-menu .text-field {
+    -fx-border-radius: 25,25,25,25;
+    -fx-background-color: rgb(45,45,45);
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: ADADAD;
+}
+
+.button {
+    -fx-background-color: transparent;
+}

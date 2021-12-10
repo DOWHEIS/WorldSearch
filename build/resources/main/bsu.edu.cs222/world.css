@@ -1,0 +1,11 @@
+
+.world {
+    -background-color: #36434F;
+    /*-fill-color      : #FFFF;*/
+    -stroke-color    : #000000;
+    -hover-color     : #456acf;
+    -pressed-color   : #789dff;
+    -selected-color  : #32a852;
+    -knockedOut-color : #F30D0D;
+    -location-color  : #FF0000;
+}
